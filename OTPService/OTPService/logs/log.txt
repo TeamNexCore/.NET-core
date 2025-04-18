@@ -1,0 +1,268 @@
+2025-04-17 18:04:29.505 +05:30 [INF]  
+2025-04-17 18:04:29.554 +05:30 [INF] 📨 Received Message: {
+  "queuedata": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+2025-04-17 18:04:29.561 +05:30 [INF]  
+2025-04-17 18:04:29.578 +05:30 [INF] 📦 Extracted Queuedata JSON: {"email":{"to":["venkitapathi.s@agile-labs.com"],"subject": "Axpert OTP Authentication","body":["Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team."]},"sms":{"mobileno":["+919025696017"],"message": ["Dear buddy2,One Time Password(OTP) for Axpert login is 202"]},"redis":{"redisserver":"127.0.0.1","redisport":"6379","redispwd":"cloud.01","emailconfigkey":"goldendump112-AxEmailSMTPJSON"}}
+2025-04-17 18:04:29.789 +05:30 [INF] ScheduledMessage
+2025-04-17 18:04:29.802 +05:30 [INF] 🔍 RedisConfig before injection: {"redisserver":"127.0.0.1","redisport":"6379","redispwd":"cloud.01","emailconfigkey":"goldendump112-AxEmailSMTPJSON"}
+2025-04-17 18:04:29.805 +05:30 [INF] 🔗 Redis details injected into Email.
+2025-04-17 18:04:29.818 +05:30 [INF] 📧 Final Email Request JSON:
+{
+  "to": [
+    "venkitapathi.s@agile-labs.com"
+  ],
+  "subject": "Axpert OTP Authentication",
+  "body": [
+    "Dear reddy2,\u003Cbr\u003EOne Time Password(OTP) for Axpert login is 202 \u003Cbr\u003ERegards,\u003Cbr\u003ESupport Team."
+  ],
+  "redis": {
+    "redisserver": "127.0.0.1",
+    "redisport": "6379",
+    "redispwd": "cloud.01",
+    "emailconfigkey": "goldendump112-AxEmailSMTPJSON"
+  }
+}
+2025-04-17 18:04:29.822 +05:30 [INF] Email API URL http://localhost/axMessageAPI/api/Messaging/email
+2025-04-17 18:04:31.728 +05:30 [INF] ✅ Email API call succeeded.
+2025-04-17 18:04:31.739 +05:30 [INF] 📧 Final SMS Request JSON:
+{
+  "mobileno": [
+    "\u002B919025696017"
+  ],
+  "message": [
+    "Dear buddy2,One Time Password(OTP) for Axpert login is 202"
+  ]
+}
+2025-04-17 18:04:31.747 +05:30 [INF] SMS API URL http://localhost/axMessageAPI/api/Messaging/send-bulkSms
+2025-04-17 18:04:32.264 +05:30 [INF] ✅ SMS API call succeeded.
+2025-04-17 18:09:50.244 +05:30 [INF]  
+2025-04-17 18:09:50.284 +05:30 [INF] 📨 Received Message: {
+  "queuedata": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+2025-04-17 18:09:50.288 +05:30 [INF]  
+2025-04-17 18:09:50.309 +05:30 [INF] 📦 Extracted Queuedata JSON: {"email":{"to":["venkitapathi.s@agile-labs.com"],"subject": "Axpert OTP Authentication","body":["Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team."]},"sms":{"mobileno":["+919025696017"],"message": ["Dear buddy2,One Time Password(OTP) for Axpert login is 202"]},"redis":{"redisserver":"127.0.0.1","redisport":"6379","redispwd":"cloud.01","emailconfigkey":"goldendump112-AxEmailSMTPJSON"}}
+2025-04-17 18:09:50.455 +05:30 [INF] ScheduledMessage
+2025-04-17 18:09:50.470 +05:30 [INF] 🔍 RedisConfig before injection: {"redisserver":"127.0.0.1","redisport":"6379","redispwd":"cloud.01","emailconfigkey":"goldendump112-AxEmailSMTPJSON"}
+2025-04-17 18:09:50.473 +05:30 [INF] 🔗 Redis details injected into Email.
+2025-04-17 18:09:50.485 +05:30 [INF] 📧 Final Email Request JSON:
+{
+  "to": [
+    "venkitapathi.s@agile-labs.com"
+  ],
+  "subject": "Axpert OTP Authentication",
+  "body": [
+    "Dear reddy2,\u003Cbr\u003EOne Time Password(OTP) for Axpert login is 202 \u003Cbr\u003ERegards,\u003Cbr\u003ESupport Team."
+  ],
+  "redis": {
+    "redisserver": "127.0.0.1",
+    "redisport": "6379",
+    "redispwd": "cloud.01",
+    "emailconfigkey": "goldendump112-AxEmailSMTPJSON"
+  }
+}
+2025-04-17 18:09:50.488 +05:30 [INF] Email API URL http://localhost/axMessageAPI/api/Messaging/email
+2025-04-17 18:09:51.774 +05:30 [INF] ✅ Email API call succeeded.
+2025-04-17 18:09:51.800 +05:30 [INF] 📧 Final SMS Request JSON:
+{
+  "mobileno": [
+    "\u002B919025696017"
+  ],
+  "message": [
+    "Dear buddy2,One Time Password(OTP) for Axpert login is 202"
+  ]
+}
+2025-04-17 18:09:51.804 +05:30 [INF] SMS API URL http://localhost/axMessageAPI/api/Messaging/send-bulkSms
+2025-04-17 18:09:59.374 +05:30 [INF] ✅ SMS API call succeeded.
+2025-04-18 10:53:58.223 +05:30 [INF]  
+2025-04-18 10:53:58.285 +05:30 [INF] 📨 Received Message: {
+  "queuedataa": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+2025-04-18 10:53:58.285 +05:30 [INF]  
+2025-04-18 10:53:58.300 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 10:58:04.187 +05:30 [INF]  
+2025-04-18 10:58:04.231 +05:30 [INF] 📨 Received Message: {
+  "queuedataa": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+2025-04-18 10:58:04.231 +05:30 [INF]  
+2025-04-18 10:58:04.247 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 11:02:39.928 +05:30 [INF]  
+2025-04-18 11:02:39.974 +05:30 [INF] 📨 Received Message: {
+  "queuedataa": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+2025-04-18 11:02:39.975 +05:30 [INF]  
+2025-04-18 11:02:39.987 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 11:49:59.886 +05:30 [INF] 
+📨 Received Message: 
+  "queuedata": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+
+2025-04-18 11:50:00.159 +05:30 [ERR] 🔥 Unexpected error while processing message: ':' is invalid after a single JSON value. Expected end of data. LineNumber: 1 | BytePositionInLine: 13.
+2025-04-18 11:50:00.166 +05:30 [INF] 
+📨 Received Message: {
+  "queuedataa": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+
+2025-04-18 11:50:00.236 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 11:50:00.242 +05:30 [INF] 
+📨 Received Message: {
+  "queuedataa": "\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+
+2025-04-18 11:50:00.336 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 11:50:00.356 +05:30 [INF] 
+📨 Received Message: {
+  "queuedataa": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+
+2025-04-18 11:50:00.383 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 12:16:41.129 +05:30 [INF]  
+2025-04-18 12:16:41.241 +05:30 [INF] 📨 Received Message: 
+  "queuedata": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+2025-04-18 12:16:41.248 +05:30 [INF]  
+2025-04-18 12:16:41.280 +05:30 [ERR] 🔥 Unexpected error while processing message.
+System.Text.Json.JsonReaderException: ':' is invalid after a single JSON value. Expected end of data. LineNumber: 1 | BytePositionInLine: 13.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__0>d.MoveNext() in C:\Users\Venkitapathi.s\Downloads\OTPService\OTPService\OTPService\Program.cs:line 71
+2025-04-18 12:16:41.341 +05:30 [INF]  
+2025-04-18 12:16:41.344 +05:30 [INF] 📨 Received Message: {
+  "queuedataa": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+2025-04-18 12:16:41.346 +05:30 [INF]  
+2025-04-18 12:16:41.378 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 12:16:41.378 +05:30 [INF]  
+2025-04-18 12:16:41.380 +05:30 [INF] 📨 Received Message: {
+  "queuedataa": "\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"subject\": \"Axpert OTP Authentication\",\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+2025-04-18 12:16:41.394 +05:30 [INF]  
+2025-04-18 12:16:41.397 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
+2025-04-18 12:16:41.398 +05:30 [INF]  
+2025-04-18 12:16:41.398 +05:30 [INF] 📨 Received Message: {
+  "queuedataa": "{\"email\":{\"to\":[\"venkitapathi.s@agile-labs.com\"],\"body\":[\"Dear reddy2,<br>One Time Password(OTP) for Axpert login is 202 <br>Regards,<br>Support Team.\"]},\"sms\":{\"mobileno\":[\"+919025696017\"],\"message\": [\"Dear buddy2,One Time Password(OTP) for Axpert login is 202\"]},\"redis\":{\"redisserver\":\"127.0.0.1\",\"redisport\":\"6379\",\"redispwd\":\"cloud.01\",\"emailconfigkey\":\"goldendump112-AxEmailSMTPJSON\"}}",
+  "queuejson": null,
+  "queuename": "LoginOTPQueue",
+  "signalrclient": "",
+  "apidesc": null,
+  "timespandelay": 0,
+  "trace": false,
+  "responsequeuename": null,
+  "MsgExpirySecs": 60
+}
+
+2025-04-18 12:16:41.405 +05:30 [INF]  
+2025-04-18 12:16:41.405 +05:30 [WRN] ⚠️ 'queuedata' field missing in received message. Skipping.
